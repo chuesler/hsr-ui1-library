@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="UI1-miniprojekt-37-chuesler" default="dist" basedir=".">
+
+	<target name="init">
+		<property name="proj.src" location="${basedir}/src" />
+		<property name="proj.lib" value="${basedir}/lib" />
+
+		<property name="proj.build" value="${basedir}/build" />
+		<property name="proj.build.classes" value="${proj.build}/classes" />
+
+		<property name="jar.file.name" value="37-chuesler-library.jar" />
+
+		<property name="project.zip.name" value="37-chuesler-project.zip" />
+		<property name="release.dir.name" value="37-chuesler-library" />
+		<property name="release.zip.name" value="${release.dir.name}.zip" />
+
+		<fileset id="proj.classpath" dir="${proj.lib}">
+			<exclude name="**/*javadoc*.jar" />
+			<exclude name="**/*sources*.jar" />
+			<include name="**/*.jar" />
+		</fileset>
+
+	</target>
+
+	<target name="clean" depends="init">
+		<delete dir="${basedir}/${release.dir.name}" />
+		<delete file="${basedir}/${release.zip.name}" />
+		<delete dir="${proj.build}" />
+		<mkdir dir="${proj.build}" />
+		<mkdir dir="${proj.build.classes}" />
+	</target>
+
+	<target name="build" depends="clean" description="description">
+		<javac destdir="${proj.build.classes}" srcdir="${proj.src}">
+			<classpath>
+				<fileset refid="proj.classpath" />
+			</classpath>
+			<include name="**/*.java" />
+			<exclude name="**/test/*.java" />
+		</javac>
+	</target>
+
+	<target name="dist" depends="build">
+		<pathconvert property="jar.classpath" pathsep=" " refid="proj.classpath">
+			<map from="${proj.lib}" to="lib" />
+		</pathconvert>
+		<jar destfile="${proj.build}/${jar.file.name}">
+			<fileset dir="${proj.build.classes}" includes="**/*.class" />
+			<fileset dir="${proj.src}" includes="*.properties" />
+			<fileset dir="${basedir}/icons" includes="splash.png large_open_book.png silk/*.png" />
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Main-Class" value="application.LibraryApp" />
+				<attribute name="Class-Path" value="${jar.classpath} icons" />
+				<attribute name="SplashScreen-Image" value="splash.png" />
+			</manifest>
+		</jar>
+
+		<zip destfile="${proj.build}/${project.zip.name}">
+			<zipfileset dir="${basedir}" prefix="Library">
+				<include name="src/**/*" />
+				<include name="icons/*.png" />
+				<include name="icons/silk/*.png" />
+				<include name="icons/silk/readme.txt" />
+				<include name="data/**/*" />
+				<include name="reports/**/*.jrxml" />
+				<include name="lib/**/*" />
+				<exclude name="lib/**/*javadoc*.jar"/>
+				<exclude name="lib/**/*source*.jar"/>
+				<include name=".classpath" />
+				<include name=".project" />
+				<include name="build.xml" />
+				<include name="LibraryApp.launch" />
+			</zipfileset>
+		</zip>
+
+		<zip destfile="${basedir}/${release.zip.name}">
+			<zipfileset dir="${proj.build}" includes="${jar.file.name}" prefix="${release.dir.name}" />
+			<zipfileset dir="${basedir}/data" includes="*" prefix="${release.dir.name}/data" />
+			<zipfileset dir="${basedir}/icons" includes="large_open_book.png" prefix="${release.dir.name}/icons" />
+			<zipfileset dir="${proj.lib}" includes="**/*" excludes="**/*sources*.jar **/*javadoc*.jar" prefix="${release.dir.name}/lib" />
+			<zipfileset dir="${basedir}/reports" includes="*.jrxml" prefix="${release.dir.name}/reports" />
+			<zipfileset dir="${proj.build}" includes="${project.zip.name}" prefix="${release.dir.name}" />
+		</zip>
+
+	</target>
+
+</project>

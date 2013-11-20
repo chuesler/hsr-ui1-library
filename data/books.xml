@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>
+		<name>A Designer's Guide to Adobe InDesign and XML: Harness the Power of XML to Automate your Print and Web Workflows</name>
+		<author>James J. Maivald, Cathy Palmer</author>
+		<publisher>Adobe Press</publisher>
+	</title>
+	<title>
+		<name>America Bizarro: A Guide to Freaky Festivals, Groovy Gatherings, Kooky Contests, and Other Strange Happenings Across the USA</name>
+		<author>Nelson Taylor</author>
+		<publisher>St. Martin's Griffin</publisher>
+	</title>
+	<title>
+		<name>Antipatterns: Identification, Refactoring, and Management (Auerbach Series on Applied Software Engineering)</name>
+		<author>Phillip A. Laplante, Colin J. Neill</author>
+		<publisher>Auerbach Publications</publisher>
+	</title>
+	<title>
+		<name>AntiPatterns: Refactoring Software, Architectures, and Projects in Crisis</name>
+		<author>William J. Brown, Raphael C. Malveau, Thomas J. Mowbray</author>
+		<publisher>Wiley</publisher>
+	</title>
+	<title>
+		<name>Beginning ASP.NET 3.5 in C# 2008: From Novice to Professional, Second Edition (Beginning from Novice to Professional)</name>
+		<author>Matthew MacDonald</author>
+		<publisher>Apress</publisher>
+	</title>
+	<title>
+		<name>Beginning ASP.NET 3.5: In C# and VB (Programmer to Programmer)</name>
+		<author>Imar Spaanjaars</author>
+		<publisher>Wrox</publisher>
+	</title>
+	<title>
+		<name>Beginning Groovy and Grails: From Novice to Professional (Beginning from Novice to Professional)</name>
+		<author>Christopher M. Judd, Joseph Faisal Nusairat, Jim Shingler</author>
+		<publisher>Apress</publisher>
+	</title>
+	<title>
+		<name>Beginning Scala</name>
+		<author>David Pollak</author>
+		<publisher>Apress</publisher>
+	</title>
+	<title>
+		<name>Beginning SQL Server 2008 for Developers: From Novice to Professional (Beginning from Novice to Professional)</name>
+		<author>Robin Dewson</author>
+		<publisher>Apress</publisher>
+	</title>
+	<title>
+		<name>Beginning XML, 4th Edition (Programmer to Programmer)</name>
+		<author>David Hunter, Jeff Rafter, Joe Fawcett, Eric van der Vlist, Danny Ayers, Jon Duckett, Andrew Watt, Linda McKinnon</author>
+		<publisher>Wrox</publisher>
+	</title>
+	<title>
+		<name>Big Java</name>
+		<author>Cay S. Horstmann</author>
+		<publisher>Wiley</publisher>
+	</title>
+	<title>
+		<name>Black Men Built the Capitol: Discovering African-American History In and Around Washington, D.C.</name>
+		<author>Jesse J. Holland</author>
+		<publisher>Globe Pequot</publisher>
+	</title>
+	<title>
+		<name>C Programming Language (2nd Edition) (Prentice Hall Software)</name>
+		<author>Brian W. Kernighan, Dennis M. Ritchie</author>
+		<publisher>Prentice Hall PTR</publisher>
+	</title>
+	<title>
+		<name>C++ Programming: From Problem Analysis to Program Design, Fourth Edition</name>
+		<author>D.S. Malik</author>
+		<publisher>Course Technology</publisher>
+	</title>
+	<title>
+		<name>Cocoa(R) Programming for Mac(R) OS X (3rd Edition)</name>
+		<author>Aaron Hillegass</author>
+		<publisher>Addison-Wesley Professional</publisher>
+	</title>
+	<title>
+		<name>Effective Java (2nd Edition) (Java Series)</name>
+		<author>Joshua Bloch</author>
+		<publisher>Prentice Hall PTR</publisher>
+	</title>
+	<title>
+		<name>Excel 2007 Power Programming with VBA (Mr. Spreadsheet's Bookshelf)</name>
+		<author>John Walkenbach</author>
+		<publisher>Wiley</publisher>
+	</title>
+	<title>
+		<name>Fodor's Washington, D.C. 2009: with Mount Vernon, Alexandria &amp; Annapolis (Fodor's Gold Guides)</name>
+		<author>Fodor's</author>
+		<publisher>Fodor's</publisher>
+	</title>
+	<title>
+		<name>Get the Life You Want: The Secrets to Quick and Lasting Life Change with Neuro-Linguistic Programming</name>
+		<author>Richard Bandler</author>
+		<publisher>HCi</publisher>
+	</title>
+	<title>
+		<name>Goodnight Max (Max and Ruby)</name>
+		<author>Rosemary Wells</author>
+		<publisher>Viking Juvenile</publisher>
+	</title>
+	<title>
+		<name>Groovy and Grails Recipes (Recipes: a Problem-Solution Approach)</name>
+		<author>Bashar Abdul-Jawad</author>
+		<publisher>Apress</publisher>
+	</title>
+	<title>
+		<name>Groovy Geometry: Games and Activities That Make Math Easy and Fun</name>
+		<author>Lynette Long</author>
+		<publisher>Wiley</publisher>
+	</title>
+	<title>
+		<name>Groovy in Action</name>
+		<author>Dierk Koenig, Andrew Glover, Paul King, Guillaume Laforge, Jon Skeet</author>
+		<publisher>Manning Publications</publisher>
+	</title>
+	<title>
+		<name>Groovy Recipes: Greasing the Wheels of Java (Pragmatic Programmers)</name>
+		<author>Scott Davis</author>
+		<publisher>Pragmatic Bookshelf</publisher>
+	</title>
+	<title>
+		<name>Groovy Tubes: Mythical Beasts</name>
+		<author>Kate Torpie</author>
+		<publisher>Innovative Kids</publisher>
+	</title>
+	<title>
+		<name>Head First C# (Brain-Friendly Guides)</name>
+		<author>Andrew Stellman, Jennifer Greene</author>
+		<publisher>O'Reilly Media, Inc.</publisher>
+	</title>
+	<title>
+		<name>Head First Java, 2nd Edition</name>
+		<author>Kathy Sierra, Bert Bates</author>
+		<publisher>O'Reilly Media, Inc.</publisher>
+	</title>
+	<title>
+		<name>Head First SQL: Your Brain on SQL -- A Learner's Guide</name>
+		<author>Lynn Beighley</author>
+		<publisher>O'Reilly Media, Inc.</publisher>
+	</title>
+	<title>
+		<name>Introduction to Java Programming, Comprehensive Version (7th Edition)</name>
+		<author>Y. Daniel Liang</author>
+		<publisher>Prentice Hall</publisher>
+	</title>
+	<title>
+		<name>Java Concepts for Java 5 and 6</name>
+		<author>Cay S. Horstmann</author>
+		<publisher>Wiley</publisher>
+	</title>
+	<title>
+		<name>Java Concurrency in Practice</name>
+		<author>Brian Goetz, Tim Peierls, Joshua Bloch, Joseph Bowbeer, David Holmes, Doug Lea</author>
+		<publisher>Addison-Wesley Professional</publisher>
+	</title>
+	<title>
+		<name>Java How to Program, 7th Edition</name>
+		<author>Harvey M. Deitel, Paul J. Deitel</author>
+		<publisher>Prentice Hall</publisher>
+	</title>
+	<title>
+		<name>Java Software Solutions: Foundations of Program Design (6th Edition)</name>
+		<author>John Lewis, William Loftus</author>
+		<publisher>Addison Wesley</publisher>
+	</title>
+	<title>
+		<name>Java: Introduction to Problem Solving and Programming (5th Edition)</name>
+		<author>Walter Savitch, Frank M. Carrano</author>
+		<publisher>Prentice Hall</publisher>
+	</title>
+	<title>
+		<name>La Scala Encyclopedia of the Opera: A Complete Reference Guide</name>
+		<author>Giorgio Bagnoli</author>
+		<publisher>Simon &amp; Schuster</publisher>
+	</title>
+	<title>
+		<name>Learn Objective&amp;ndash;C on the Mac (Learn Series)</name>
+		<author>Mark Dalrymple, Scott Knaster</author>
+		<publisher>Apress</publisher>
+	</title>
+	<title>
+		<name>Learning Python, 3rd Edition</name>
+		<author>Mark Lutz</author>
+		<publisher>O'Reilly Media, Inc.</publisher>
+	</title>
+	<title>
+		<name>Learning XML, Second Edition</name>
+		<author>Erik Ray</author>
+		<publisher>O'Reilly Media, Inc.</publisher>
+	</title>
+	<title>
+		<name>Max's Valentine (Max and Ruby)</name>
+		<author>Rosemary Wells</author>
+		<publisher>Viking Juvenile</publisher>
+	</title>
+	<title>
+		<name>MCTS Self-Paced Training Kit (Exam 70-431): Microsoft SQL Server 2005 Implementation and Maintenance (Pro-Certification)</name>
+		<author>Solid Quality Learning</author>
+		<publisher>Microsoft Press</publisher>
+	</title>
+	<title>
+		<name>Microsoft  .NET XML Web Services Step by Step (Step By Step (Microsoft))</name>
+		<author>Adam Freeman, Allen Jones</author>
+		<publisher>Microsoft Press</publisher>
+	</title>
+	<title>
+		<name>Microsoft SQL Server 2005 Reporting Services 2005</name>
+		<author>Brian Larson</author>
+		<publisher>McGraw-Hill Osborne Media</publisher>
+	</title>
+	<title>
+		<name>Microsoft SQL Server 2005 Unleashed</name>
+		<author>Ray Rankins, Paul Bertucci, Chris Gallelli, Alex T. Silverstein</author>
+		<publisher>Sams</publisher>
+	</title>
+	<title>
+		<name>Microsoft Visual C# 2008 Step by Step</name>
+		<author>John Sharp</author>
+		<publisher>Microsoft Press</publisher>
+	</title>
+	<title>
+		<name>Murach's C# 2008</name>
+		<author>Joel Murach</author>
+		<publisher>Mike Murach &amp; Associates</publisher>
+	</title>
+	<title>
+		<name>Murach's SQL Server 2005 for Developers</name>
+		<author>Bryan Syverson, Joel Murach</author>
+		<publisher>Mike Murach &amp; Associates</publisher>
+	</title>
+	<title>
+		<name>Murach's SQL Server 2008 for Developers</name>
+		<author>Bryan Syverson, Joel Murach</author>
+		<publisher>Mike Murach &amp; Associates</publisher>
+	</title>
+	<title>
+		<name>New Perspectives on Creating Web Pages with HTML, XHTML, and XML, Comprehensive, Second Edition (New Perspectives (Paperback Course Technology))</name>
+		<author>Patrick Carey</author>
+		<publisher>Course Technology</publisher>
+	</title>
+	<title>
+		<name>New Perspectives on XML, Second Edition, Comprehensive (New Pespectives)</name>
+		<author>Patrick Carey</author>
+		<publisher>Course Technology</publisher>
+	</title>
+	<title>
+		<name>Opening Night at La Scala (Teatro Alla Scala Foundation)</name>
+		<author>Teatro Alla Scala Foundation</author>
+		<publisher>Rizzoli</publisher>
+	</title>
+	<title>
+		<name>Oracle 10g: SQL</name>
+		<author>Joan Casteel</author>
+		<publisher>Course Technology</publisher>
+	</title>
+	<title>
+		<name>Pergamon Museum, Berlin - 66 Masterpieces (Scala's Masterpieces)</name>
+		<author>Scala Publishers</author>
+		<publisher>Scala Publishers</publisher>
+	</title>
+	<title>
+		<name>Practical Programming for Strength Training</name>
+		<author>Mark Rippetoe And Lon Kilgore</author>
+		<publisher>The Aasgaard Company</publisher>
+	</title>
+	<title>
+		<name>Pro ASP.NET 3.5 in C# 2008, Second Edition (Windows.Net)</name>
+		<author>Matthew MacDonald, Mario Szpuszta</author>
+		<publisher>Apress</publisher>
+	</title>
+	<title>
+		<name>Pro C# 2008 and the .NET 3.5 Platform, Fourth Edition (Windows.Net)</name>
+		<author>Andrew Troelsen</author>
+		<publisher>Apress</publisher>
+	</title>
+	<title>
+		<name>Pro LINQ: Language Integrated Query in C# 2008 (Windows.Net)</name>
+		<author>Jr., Joseph C. Rattz</author>
+		<publisher>Apress</publisher>
+	</title>
+	<title>
+		<name>Pro Silverlight 2 in C# 2008 (Windows.Net)</name>
+		<author>Matthew MacDonald</author>
+		<publisher>Apress</publisher>
+	</title>
+	<title>
+		<name>Pro WPF in C# 2008: Windows Presentation Foundation with .NET 3.5, Second Edition (Books for Professionals by Professionals)</name>
+		<author>Matthew MacDonald</author>
+		<publisher>Apress</publisher>
+	</title>
+	<title>
+		<name>Professional Microsoft SQL Server 2008 Integration Services (Wrox Programmer to Programmer)</name>
+		<author>Brian Knight, Erik Veerman, Grant Dickinson, Douglas Hinson, Darren Herbold</author>
+		<publisher>Wrox</publisher>
+	</title>
+	<title>
+		<name>Professional Refactoring in Visual Basic (Programmer to Programmer)</name>
+		<author>Danijel Arsenovski</author>
+		<publisher>Wrox</publisher>
+	</title>
+	<title>
+		<name>Programming Collective Intelligence: Building Smart Web 2.0 Applications</name>
+		<author>Toby Segaran </author>
+		<publisher>O'Reilly Media, Inc.</publisher>
+	</title>
+	<title>
+		<name>Programming Groovy: Dynamic Productivity for the Java Developer (Pragmatic Programmers)</name>
+		<author>Venkat Subramaniam</author>
+		<publisher>Pragmatic Bookshelf</publisher>
+	</title>
+	<title>
+		<name>Programming in Objective-C 2.0 (2nd Edition) (Developer's Library)</name>
+		<author>Stephen G. Kochan</author>
+		<publisher>Addison-Wesley Professional</publisher>
+	</title>
+	<title>
+		<name>Programming in Python 3: A Complete Introduction to the Python Language (Developer's Library)</name>
+		<author>Mark Summerfield</author>
+		<publisher>Addison-Wesley Professional</publisher>
+	</title>
+	<title>
+		<name>Programming in Scala: A Comprehensive Step-by-step Guide</name>
+		<author>Martin Odersky, Lex Spoon, Bill Venners</author>
+		<publisher>Artima Inc</publisher>
+	</title>
+	<title>
+		<name>Programming Python</name>
+		<author>Mark Lutz</author>
+		<publisher>O'Reilly Media, Inc.</publisher>
+	</title>
+	<title>
+		<name>Programming Ruby: The Pragmatic Programmers' Guide, Second Edition</name>
+		<author>Dave Thomas, Chad Fowler, Andy Hunt</author>
+		<publisher>Pragmatic Bookshelf</publisher>
+	</title>
+	<title>
+		<name>Programming Scala: Tackle Multi-Core Complexity on the Java Virtual Machine</name>
+		<author>Venkat Subramaniam</author>
+		<publisher>Pragmatic Bookshelf</publisher>
+	</title>
+	<title>
+		<name>Python Cookbook</name>
+		<author>Alex Martelli, Anna Ravenscroft, David Ascher</author>
+		<publisher>O'Reilly Media, Inc.</publisher>
+	</title>
+	<title>
+		<name>Python in a Nutshell, Second Edition (In a Nutshell (O'Reilly))</name>
+		<author>Alex Martelli</author>
+		<publisher>O'Reilly Media, Inc.</publisher>
+	</title>
+	<title>
+		<name>Python Programming for the Absolute Beginner, Second Edition</name>
+		<author>Michael Dawson</author>
+		<publisher>Course Technology PTR</publisher>
+	</title>
+	<title>
+		<name>Python Programming: An Introduction to Computer Science</name>
+		<author>John M. Zelle</author>
+		<publisher>Franklin Beedle &amp; Associates</publisher>
+	</title>
+	<title>
+		<name>Python Web Development with Django (Developer's Library)</name>
+		<author>Jeff Forcier, Paul Bissex, Wesley Chun</author>
+		<publisher>Addison-Wesley Professional</publisher>
+	</title>
+	<title>
+		<name>Rapid GUI Programming with Python and Qt (Prentice Hall Open Source Software Development)</name>
+		<author>Mark Summerfield</author>
+		<publisher>Prentice Hall PTR</publisher>
+	</title>
+	<title>
+		<name>Refactoring Databases: Evolutionary Database Design (Addison-Wesley Signature Series)</name>
+		<author>Scott W. Ambler, Pramodkumar J. Sadalage</author>
+		<publisher>Addison-Wesley Professional</publisher>
+	</title>
+	<title>
+		<name>Refactoring HTML: Improving the Design of Existing Web Applications (Addison-Wesley Signature Series)</name>
+		<author>Elliotte Rusty Harold</author>
+		<publisher>Addison-Wesley Professional</publisher>
+	</title>
+	<title>
+		<name>Refactoring SQL Applications</name>
+		<author>Stephane Faroult, Pascal L'Hermite</author>
+		<publisher>O'Reilly Media, Inc.</publisher>
+	</title>
+	<title>
+		<name>Refactoring to Patterns (Addison-Wesley Signature Series)</name>
+		<author>Joshua Kerievsky</author>
+		<publisher>Addison-Wesley Professional</publisher>
+	</title>
+	<title>
+		<name>Refactoring Workbook (Addison-Wesley Object Technology Series)</name>
+		<author>William C. Wake</author>
+		<publisher>Addison-Wesley Professional</publisher>
+	</title>
+	<title>
+		<name>Refactoring: Improving the Design of Existing Code (Addison-Wesley Object Technology Series)</name>
+		<author>Martin Fowler, Kent Beck, John Brant, William Opdyke, Don Roberts</author>
+		<publisher>Addison-Wesley Professional</publisher>
+	</title>
+	<title>
+		<name>Regular Expression Pocket Reference: Regular Expressions for Perl, Ruby, PHP, Python, C, Java and .NET (Pocket Reference (O'Reilly))</name>
+		<author>Tony Stubblebine</author>
+		<publisher>O'Reilly Media, Inc.</publisher>
+	</title>
+	<title>
+		<name>Rubies in the Orchard: How to Uncover the Hidden Gems in Your Business</name>
+		<author>Lynda Resnick, Francis Wilkinson</author>
+		<publisher>Doubleday Business</publisher>
+	</title>
+	<title>
+		<name>Sams Teach Yourself SQL in 10 Minutes (3rd Edition)</name>
+		<author>Ben Forta</author>
+		<publisher>Sams</publisher>
+	</title>
+	<title>
+		<name>SCJP Sun Certified Programmer for Java 6 Exam 310-065</name>
+		<author>Katherine Sierra, Bert Bates</author>
+		<publisher>McGraw-Hill Osborne Media</publisher>
+	</title>
+	<title>
+		<name>Scooby-doo Mysteries #08: Scooby-doo And The Groovy Ghost (Scooby-Doo, Mysteries)</name>
+		<author>James Gelsey</author>
+		<publisher>Scholastic Paperbacks</publisher>
+	</title>
+	<title>
+		<name>Service-Oriented Architecture: A Field Guide to Integrating XML and Web Services (The Prentice Hall Service-Oriented Computing Series from Thomas Erl)</name>
+		<author>Thomas Erl</author>
+		<publisher>Prentice Hall PTR</publisher>
+	</title>
+	<title>
+		<name>Seta (Scala) (Italian Edition)</name>
+		<author>Alessandro Baricco</author>
+		<publisher>BUR Biblioteca Univ Rizzoli</publisher>
+	</title>
+	<title>
+		<name>Tea for Ruby (Paula Wiseman Books)</name>
+		<author>Sarah The Duchess of York Ferguson</author>
+		<publisher>Simon &amp; Schuster/Paula Wiseman Books</publisher>
+	</title>
+	<title>
+		<name>The Big Book Of NLP Techniques: 200+ Patterns &amp; Strategies of Neuro Linguistic Programming</name>
+		<author>Shlomo Vaknin</author>
+		<publisher>BookSurge Publishing</publisher>
+	</title>
+	<title>
+		<name>The Chronicles of Narnia Pop-up: Based on the Books by C. S. Lewis</name>
+		<author>C. S. Lewis</author>
+		<publisher>HarperCollins</publisher>
+	</title>
+	<title>
+		<name>The Commedia dell'Arte of Flaminio Scala: A Translation and Analysis of 30 Scenarios</name>
+		<author>Richard Andrews</author>
+		<publisher>The Scarecrow Press, Inc.</publisher>
+	</title>
+	<title>
+		<name>The Complete C. S. Lewis Signature Classics</name>
+		<author>C. S. Lewis</author>
+		<publisher>HarperOne</publisher>
+	</title>
+	<title>
+		<name>The Groovy Greeks: AND The Rotten Romans (Horrible Histories Collections)</name>
+		<author>Terry Deary</author>
+		<publisher>Scholastic</publisher>
+	</title>
+	<title>
+		<name>The Ruby Programming Language</name>
+		<author>David Flanagan, Yukihiro Matsumoto</author>
+		<publisher>O'Reilly Media, Inc.</publisher>
+	</title>
+	<title>
+		<name>The Story Of Ruby Bridges (Scholastic Bookshelf)</name>
+		<author>Robert Coles</author>
+		<publisher>Scholastic Paperbacks</publisher>
+	</title>
+	<title>
+		<name>XML For Dummies</name>
+		<author>Lucinda Dykes, Ed Tittel</author>
+		<publisher>For Dummies</publisher>
+	</title>
+	<title>
+		<name>XML in a Nutshell, Third Edition</name>
+		<author>Elliotte Rusty Harold, W. Scott Means</author>
+		<publisher>O'Reilly Media, Inc.</publisher>
+	</title>
+	<title>
+		<name>XML: Visual QuickStart Guide (2nd Edition)</name>
+		<author>Kevin Howard Goldberg</author>
+		<publisher>Peachpit Press</publisher>
+	</title>
+	<title>
+		<name>xUnit Test Patterns: Refactoring Test Code (Addison-Wesley Signature Series)</name>
+		<author>Gerard Meszaros</author>
+		<publisher>Addison-Wesley</publisher>
+	</title>
+</library>

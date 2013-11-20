@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reminder" pageWidth="595" pageHeight="842" columnWidth="483" leftMargin="56" rightMargin="56" topMargin="56" bottomMargin="56" uuid="8dd2fc99-de86-4b51-92de-7fb86387a9cb">
+	<property name="ireport.zoom" value="1.2100000000000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="249"/>
+	<parameter name="customerAddress" class="java.lang.String"/>
+	<parameter name="currentDate" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="copy.title.title" class="java.lang.String">
+		<fieldDescription><![CDATA[copy]]></fieldDescription>
+	</field>
+	<field name="pickupDateString" class="java.lang.String">
+		<fieldDescription><![CDATA[pickupDateString]]></fieldDescription>
+	</field>
+	<field name="copy.title.author" class="java.lang.String">
+		<fieldDescription><![CDATA[copy]]></fieldDescription>
+	</field>
+	<field name="copy.inventoryNumber" class="java.lang.Long"/>
+	<field name="copy" class="domain.Copy"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="433" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="7d54a2ba-d849-499e-a89c-181a9c92ad66" x="0" y="285" width="176" height="26"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Rückruf]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="dfd56d3c-ee2f-4e47-a3ff-e4a22605d195" x="0" y="59" width="214" height="100"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Bibliothek am Kalenderplatz
+Kalenderplatz
+7357 Testikon]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="c86630db-3ac8-4461-a964-5f54e6588527" x="255" y="148" width="228" height="85"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{customerAddress}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="b14fcc42-7ccb-4842-ae6e-022948647ab8" x="255" y="233" width="227" height="31"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Testikon, "+$P{currentDate}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="b2322ef0-5b95-494a-a2c8-df08a49d8460" x="-1" y="323" width="483" height="110"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Sehr geehrter Kunde, sehr geehrte Kundin
+
+Sie haben vor einiger Zeit bei uns ein oder mehrere Bücher ausgeliehen. In Ihrer Lesebegeisterung ist Ihnen vielleicht entgangen, dass das Rückgabedatum abgelaufen ist.
+
+Wir bitten Sie daher, die unten aufgeführten Bücher im Verlauf der nächsten Woche zurückzubringen.
+
+Bitte beachten Sie, dass eine Mahngebühr von 3 Franken pro Buch fällig wird.]]></text>
+			</staticText>
+			<image>
+				<reportElement uuid="065e2e43-e7e2-4301-860b-375c0cf35c70" x="410" y="-25" width="100" height="65"/>
+				<imageExpression><![CDATA["icons/large_open_book.png"]]></imageExpression>
+			</image>
+			<line>
+				<reportElement uuid="ffa29686-dde9-4618-9d82-ae944e901278" x="0" y="40" width="397" height="1"/>
+			</line>
+			<staticText>
+				<reportElement uuid="615cdd7d-9ef7-4f71-9a19-4242ba221ce3" x="0" y="16" width="313" height="24"/>
+				<textElement>
+					<font fontName="Times New Roman" size="18"/>
+				</textElement>
+				<text><![CDATA[Bibliothek am Kalenderplatz]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="16" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="baedf33e-4f27-4983-a358-02e703cfecf7" x="0" y="0" width="255" height="16"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Buchtitel]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="14ed2c6c-903b-4506-b777-980315e2ba57" x="255" y="0" width="142" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Autor]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="a4c11c95-5e8c-494f-b48d-f9a210703036" x="397" y="0" width="86" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ausleihdatum]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="19" splitType="Stretch">
+			<textField>
+				<reportElement uuid="65eb203d-ad77-41b1-9fc8-b211fa382b9b" x="255" y="0" width="142" height="16"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{copy}.getTitle().getAuthor()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="7532be04-2781-4d30-a3d1-2c5cfd5094a3" x="397" y="0" width="86" height="16"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{pickupDateString}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="cdb27a42-d57a-4cdc-9941-7cc3c4ce22db" stretchType="RelativeToBandHeight" x="0" y="0" width="252" height="16"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{copy}.getTitle().getTitle()]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="162" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="340d4936-f1ef-428f-9493-d404fb9273ec" x="-1" y="0" width="483" height="15"/>
+				<textElement/>
+				<text><![CDATA[Wir freuen uns auf Ihren nächsten Besuch!
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="987dd6e4-73e3-4090-b313-39288afba3ae" x="254" y="38" width="228" height="56"/>
+				<textElement/>
+				<text><![CDATA[Freundliche Grüsse
+
+
+Ihr Bibliotheksteam]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="6" splitType="Stretch"/>
+	</summary>
+</jasperReport>

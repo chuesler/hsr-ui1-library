@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="statistics" pageWidth="595" pageHeight="842" columnWidth="483" leftMargin="56" rightMargin="56" topMargin="56" bottomMargin="56" uuid="48b613a6-ffc8-464b-8e49-b96e8c6f6672">
+	<property name="ireport.zoom" value="0.9090909090909097"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<subDataset name="dataset2" uuid="4d9fe87c-31cf-4688-8c7b-4b94718f4cd4">
+		<field name="title" class="java.lang.String"/>
+		<field name="author" class="java.lang.String"/>
+	</subDataset>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["reports/"]]></defaultValueExpression>
+	</parameter>
+	<field name="loansChart" class="java.awt.Image"/>
+	<field name="loanDurationChart" class="java.awt.Image"/>
+	<field name="lentBooksLastMonth" class="java.util.Set"/>
+	<variable name="currentMonth" class="java.lang.String">
+		<variableExpression><![CDATA[new SimpleDateFormat("MMMM yyyy").format(new Date())]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="75" splitType="Stretch">
+			<textField evaluationTime="Report">
+				<reportElement uuid="5aaab214-bcc8-4893-8c6c-35fdc0e4376c" x="0" y="51" width="483" height="22"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Statistiken zum Monat " + $V{currentMonth}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="615cdd7d-9ef7-4f71-9a19-4242ba221ce3" x="0" y="16" width="313" height="24"/>
+				<textElement>
+					<font fontName="Times New Roman" size="18"/>
+				</textElement>
+				<text><![CDATA[Bibliothek am Kalenderplatz]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="ffa29686-dde9-4618-9d82-ae944e901278" x="0" y="40" width="397" height="1"/>
+			</line>
+			<image>
+				<reportElement uuid="065e2e43-e7e2-4301-860b-375c0cf35c70" x="410" y="-25" width="100" height="65"/>
+				<imageExpression><![CDATA["icons/large_open_book.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="239" splitType="Immediate">
+			<image>
+				<reportElement uuid="25b61630-8213-4020-a82d-a99c5dd5bcfa" x="2" y="33" width="165" height="156"/>
+				<imageExpression><![CDATA[$F{loansChart}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement uuid="a6b04a78-d9e4-4f65-871c-ea0ba590e84b" x="167" y="33" width="316" height="156"/>
+				<imageExpression><![CDATA[$F{loanDurationChart}]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement uuid="f2bb9851-bd47-4480-bc57-b8aff75f0209" x="2" y="15" width="165" height="15"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Aktuelle Ausleihen]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="38216aef-83b5-482b-ba7f-d17fb85d099b" x="167" y="14" width="316" height="20"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Durchschnittliche Ausleihdauer]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement uuid="8469c764-5c91-469a-9b5d-9719b3bada51" x="2" y="220" width="483" height="14"/>
+				<jr:list xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="dataset2" uuid="7c1178a0-469e-4e76-af2d-fe47998fec94">
+						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{lentBooksLastMonth})]]></dataSourceExpression>
+					</datasetRun>
+					<jr:listContents height="14" width="483">
+						<textField>
+							<reportElement uuid="1fde5565-9d7a-4c46-a858-daa13a359278" x="2" y="0" width="332" height="14"/>
+							<textElement/>
+							<textFieldExpression><![CDATA[$F{title}]]></textFieldExpression>
+						</textField>
+						<textField>
+							<reportElement uuid="f0e60c07-19a8-4199-a3d0-4e346c057c4c" mode="Transparent" x="334" y="0" width="149" height="14"/>
+							<textElement/>
+							<textFieldExpression><![CDATA[$F{author}]]></textFieldExpression>
+						</textField>
+					</jr:listContents>
+				</jr:list>
+			</componentElement>
+			<staticText>
+				<reportElement uuid="e6c22901-fbf6-4b47-a11e-7564429b2f32" x="4" y="200" width="479" height="20"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ausgeliehene Bücher]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="31" splitType="Stretch">
+			<textField evaluationTime="Page">
+				<reportElement uuid="33af6db1-a400-4950-a694-77fc85c9b9b3" x="178" y="11" width="51" height="20"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement uuid="b72dcb9f-ac9d-4b38-8257-e5873fcf3de7" x="236" y="11" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="2430029d-bee5-4816-818e-3e5e2af1e147" x="229" y="11" width="7" height="20"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[/]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="caf4282f-9dbb-4bb1-9079-fa8c0690dde1" x="336" y="11" width="149" height="20"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$V{currentMonth}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="a5395b94-9d1f-4040-b750-76200d6e8712" x="0" y="11" width="167" height="20"/>
+				<textElement/>
+				<text><![CDATA[Bibliotheksstatistiken]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
